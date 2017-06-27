@@ -1,16 +1,8 @@
-const net = require('net');
-const server = net.createServer((c) => {
-	// 'connection' listener
-	console.log('client connected');
-	c.on('end', () => {
-		console.log('client disconnected');
-	    });
-	c.write('hello\r\n');
-	c.pipe(c);
+var net = require('net');
+
+var server = net.createServer(function(socket) {
+	socket.write('Echo server\r\n');
+	socket.pipe(socket);
     });
-server.on('error', (err) => {
-	throw err;
-    });
-server.listen(8010, () => {
-	console.log('server bound');
-    });
+
+server.listen(8010, '127.0.0.1');
