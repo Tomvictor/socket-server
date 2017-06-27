@@ -1,0 +1,24 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "socket server for IoT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomvictor/socket-server.git"
+  },
+  "keywords": [
+    "socket",
+    "tcp/ip",
+    "udp"
+  ],
+  "author": "Tom Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomvictor/socket-server/issues"
+  },
+  "homepage": "https://github.com/Tomvictor/socket-server#readme"
+}
