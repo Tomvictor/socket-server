@@ -1,0 +1,438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ho",
+				"home_page"
+			],
+			[
+				"asy",
+				"asyncio"
+			],
+			[
+				"webs",
+				"websockets"
+			],
+			[
+				"auth",
+				"author"
+			],
+			[
+				"get",
+				"get_object"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"co",
+				"context"
+			],
+			[
+				"Tu",
+				"TutorialUpdateView"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"jso",
+				"jsonData"
+			],
+			[
+				"con",
+				"countriesArray"
+			],
+			[
+				"Led",
+				"LedCharacteristic"
+			],
+			[
+				"state",
+				"stateChange"
+			],
+			[
+				"dis",
+				"disconnect"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"getD",
+				"getDateTime"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"lo",
+				"logGreeting"
+			],
+			[
+				"gree",
+				"greetMe"
+			],
+			[
+				"ur",
+				"url"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"print(\"tom\")",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/tomvictor/Bitbucket/yescollages-backend/application/config/config.php",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/readme.rst",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/index.php",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/contributing.md",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/composer.json",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/.htaccess",
+		"/Users/tomvictor/Bitbucket/yescollages-backend/.gitignore",
+		"/Users/tomvictor/Desktop/server.nginx",
+		"/Users/tomvictor/Desktop/yescolleges",
+		"/Users/tomvictor/Bitbucket/kranioz/frontend/starter-template/css/style.css",
+		"/Users/tomvictor/GitHub/django-tutorial/djangobin/mainapp/apps.py",
+		"/Users/tomvictor/Technorip/Quectel/Open CPU/M66_OpenCPU_GS3_SDK_V2.0/cloud/protocol/mqtt/src/mqttlib_ext.c",
+		"/Users/tomvictor/Technorip/Quectel/Open CPU/M66_OpenCPU_GS3_SDK_V2.0/cloud/entity/gitwizs/src/hal_socket.c",
+		"/Users/tomvictor/Technorip/Quectel/Open CPU/M66_OpenCPU_GS3_SDK_V2.0/cloud/entity/gitwizs/src/adapter.c",
+		"/Users/tomvictor/Technorip/Quectel/Open CPU/M66_OpenCPU_GS3_SDK_V2.0/cloud/entity/gitwizs/src/mqttxpg.c",
+		"/Users/tomvictor/GitHub/python-socket/browser-server.py",
+		"/Users/tomvictor/GitHub/python-socket/ws-client.py",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/example/example_bluetooth.c",
+		"/Users/tomvictor/GitHub/python-socket/ws-server.py",
+		"/Users/tomvictor/Desktop/html-email/index.html",
+		"/Users/tomvictor/Bitbucket/buildfromzero/buildfromzero/accounts/views.py",
+		"/Users/tomvictor/Bitbucket/buildfromzero/buildfromzero/accounts/mixins.py",
+		"/Users/tomvictor/Bitbucket/kranioz/.gitignore",
+		"/Users/tomvictor/source/imgcrop/requirements.txt",
+		"/Users/tomvictor/source/Dsk/introductions/index.html",
+		"/Users/tomvictor/Desktop/optimized_contents (2)/css/flash-theme.css",
+		"/Users/tomvictor/Desktop/optimized_contents (2)/css/animate.css",
+		"/Users/tomvictor/Bitbucket/kranioz/kranioz/urls.py",
+		"/Users/tomvictor/Bitbucket/kranioz/kranioz/settings.py",
+		"/Users/tomvictor/Bitbucket/kranioz/kranioz/urls.py~",
+		"/Users/tomvictor/Desktop/startbootstrap-3-col-portfolio-gh-pages/index.html",
+		"/Users/tomvictor/Downloads/sitemap.xml",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/scripts/demo.js",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/index.htm",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/scripts/hight.html",
+		"/Users/tomvictor/GitHub/autocomplete/Frontend/content/styles.css",
+		"/Users/tomvictor/GitHub/autocomplete/Frontend/index.htm",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/src/jquery.autocomplete.js",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/content/styles.css",
+		"/Users/tomvictor/Desktop/jQuery-Autocomplete-master/scripts/countries.js",
+		"/Users/tomvictor/Desktop/self-adjusting-search-bar/js/index.js",
+		"/Users/tomvictor/Desktop/self-adjusting-search-bar/scss/style.scss",
+		"/Users/tomvictor/GitHub/python-IO/tom.json",
+		"/Users/tomvictor/tom.log",
+		"/Users/tomvictor/Library/Application Support/Sublime Text 3/Packages/Log Highlight/Log Highlight.sublime-settings",
+		"/Users/tomvictor/Desktop/kranioz.json",
+		"/Users/tomvictor/Desktop/github/git-tutorial/testing.py",
+		"/Users/tomvictor/Desktop/build/tom.py",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/protocol/mqtt/inc/mqttlib_ext.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/protocol/mqtt/src/mqttlib_ext.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/adapter.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/hal_timer.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/mqttxpg.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/mqttxpg.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/hal_socket.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/hal_socket.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/gagent_typedef.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/adapter.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/gagent.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/cloud.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/http.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/http.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/cloud.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/ril/inc/ril_network.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/include/ql_gprs.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/utils.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/src/gitwizs_main.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/entity/gitwizs/inc/hal_timer.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/ril/src/ril_system.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/ril/inc/ril_system.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/cloud/protocol/mqtt/inc/mqttbuffer.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/include/ql_uart.h",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/ril/src/ril_gps.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60_OpenCPU_GS3_SDK_V1.3/ril/src/ril_location.c",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60CAR01A05/QUECTEL03D_M2M_11C_BB.cfg",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60CAR01A05/BPLGUInfoCustomAppSrcP_MT6261_S00_MC60CAR01A05",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60CAR01A05/VIVA",
+		"/Users/tomvictor/source/mc 60 open cpu/MC60CAR01A05/DbgInfo_11CW1418IOTMP_QUECTEL03D_M2M_11C_MC60CAR01A05_2016_11_03_18_57",
+		"/Users/tomvictor/GitHub/Angular2-Learning/first-ng-app/dist/index.html",
+		"/Users/tomvictor/Desktop/BUILDFROMZERO/BUILDFROMZERO/index.html",
+		"/Users/tomvictor/Desktop/index.html",
+		"/Users/tomvictor/Desktop/pasteway_com.crt",
+		"/Users/tomvictor/Desktop/pasteway_com.ca-bundle",
+		"/Users/tomvictor/Desktop/flat-admin-bootstrap-templates-master/dist/html/assets/css/flags/1x1/zm.svg",
+		"/Users/tomvictor/Desktop/flat-admin-bootstrap-templates-master/dist/html/index.html",
+		"/Users/tomvictor/Desktop/mdl-template-android-dot-com (1)/index.html",
+		"/Users/tomvictor/Desktop/mdl-template-android-dot-com (1)/styles.css",
+		"/private/var/log/apache2/access_log",
+		"/Users/tomvictor/Bitbucket/bosch-hackathon/bosch/sitemain/views.py",
+		"/Users/tomvictor/GitHub/express/examples/ejs/views/header.html",
+		"/Users/tomvictor/GitHub/express/examples/ejs/index.js",
+		"/Users/tomvictor/Desktop/kranioz beta.html",
+		"/Users/tomvictor/Downloads/noun_800054_cc.svg",
+		"/Users/tomvictor/Bitbucket/node-production/templates/nav.html",
+		"/Users/tomvictor/GitHub/socketio-demo/index.html",
+		"/Users/tomvictor/GitHub/socketio-demo/app.js",
+		"/Users/tomvictor/Desktop/kr.js",
+		"/Users/tomvictor/Desktop/connect.js",
+		"/Users/tomvictor/Desktop/untitled.html",
+		"/Users/tomvictor/GitHub/Try-mezzanine/mezza/mezza/local_settings.py",
+		"/Users/tomvictor/GitHub/Try-mezzanine/mezza/mezza/settings.py",
+		"/Users/tomvictor/GitHub/My-React-Source/hello-world/node_modules/express/lib/view.js",
+		"/Users/tomvictor/GitHub/My-React-Source/hello-world/src/App.js",
+		"/Volumes/UBUNTU 16_0/jumbotron.txt",
+		"/Volumes/UBUNTU 16_0/list-test.html",
+		"/Users/tomvictor/Desktop/map/map.html",
+		"/Users/tomvictor/Pictures/the-big-picture.css",
+		"/Users/tomvictor/Desktop/typscript/greeter.ts",
+		"/Users/tomvictor/GitHub/Angular2-Learning/test/test.ts",
+		"/Users/tomvictor/Desktop/typscript/greeter.js",
+		"/Users/tomvictor/GitHub/Angular2-Learning/test/test.js",
+		"/Users/tomvictor/Downloads/nRF5_SDK_12.2.0_f012efa/examples/ble_central_and_peripheral/experimental/ble_app_att_mtu_throughput/amt.h",
+		"/Users/tomvictor/Desktop/kranioz2/kranioz2/index.html",
+		"/Users/tomvictor/Desktop/admin panel/device.html",
+		"/Users/tomvictor/Desktop/sample code-0/sample code/index.html",
+		"/Users/tomvictor/.ssh/id_rsa.pub",
+		"/Users/tomvictor/.ssh/id_rsa",
+		"/Users/tomvictor/Untitled.iba",
+		"/Users/tomvictor/GitHub/Machine-Learning-using-Scikit/mathlab_example.py",
+		"/Users/tomvictor/GitHub/My-C-Codes/smfn.c",
+		"/Users/tomvictor/tom.cpp",
+		"/Users/tomvictor/GitHub/My-C-Codes/siz.c",
+		"/Users/tomvictor/GitHub/My-C-Codes/fibno.c",
+		"/Users/tomvictor/source/newnodetime/time.js",
+		"/Users/tomvictor/source/pydb.py",
+		"/Users/tomvictor/GitHub/My-C-Codes/hello.c",
+		"/Users/tomvictor/source/tom.c",
+		"/Users/tomvictor/Downloads/upload_t7HmxRN.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/tomvictor/myenv3/lib/python3.5/site-packages/django/contrib/admin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"thump",
+			"slug",
+			"title",
+			"`",
+			"title",
+			"gw_ctx",
+			"MSG_ID_CLOUD_CONFIG",
+			"MSG_ID_MQTT_CONFIG",
+			"port",
+			"ppacket",
+			"Cloud_Rxbuf",
+			"runtimeinfo",
+			"rtinfo",
+			"phead",
+			"Mqtt_Login2Server",
+			"ql",
+			"pas",
+			"passw",
+			"Datatable",
+			"LEDSwi",
+			"default_token_generator",
+			"static",
+			"codesnippest",
+			"high",
+			"defa",
+			"cs",
+			"css",
+			"var routes = require('./routes/index');\nvar users = require('./routes/users');",
+			"!",
+			"Village"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"data",
+			"value"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.loghighlight":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime_pro.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i18n",
+				"lib/python3.5/site-packages/django/templatetags/i18n.py"
+			],
+			[
+				"w",
+				"node_modules/acorn/src/whitespace.js"
+			],
+			[
+				"",
+				"node_modules/.bin/uglifyjs"
+			],
+			[
+				"ap",
+				"app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
