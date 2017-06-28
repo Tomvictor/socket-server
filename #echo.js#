@@ -10,7 +10,7 @@ var server = net.createServer(function(socket) {
 	socket.write('Technorip Echo server\r\n'); //imediate message to client
 	//tring to read the data
 	socket.on('data',(data) => {
-		console.log("Data chunck:");
+		console.log("Data recieved chunck:");
 		console.log(data);
 		console.log("Data length:");
 		console.log(data.length);

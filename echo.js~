@@ -10,24 +10,13 @@ var server = net.createServer(function(socket) {
 	socket.write('Technorip Echo server\r\n'); //imediate message to client
 	//tring to read the data
 	socket.on('data',(data) => {
-		var chunck ;
-		chunck = data;
-		print ("Data chunck:");
-		print(chunck);
-		print("Data length:");
-		print(chunck.length);
-		print("Data in ascii");
-		print(chunck.toString('ascii'));
-		print("Data in utf8");
-		print(chunck.toString('utf8'));
-		print("Data in utf16le");
-		print(chunck.toString('utf16le'));
-		print("Data in binary");
-		print(chunck.toString('binary'));
-		print("Data in hex");
-		print(chunck.toString('hex'));
-		console.log(data.length);
+		console.log("Data chunck:");
 		console.log(data);
+		console.log("Data length:");
+		console.log(data.length);
+		console.log("Data in ascii");
+		console.log(data.toString('ascii'));
+		
 	    });
 
 	//socket.pipe(socket);	
