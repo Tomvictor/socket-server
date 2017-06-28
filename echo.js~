@@ -1,16 +1,18 @@
-const net = require('net');
-const server = net.createServer((c) => {
-	// 'connection' listener
-	console.log('client connected');
-	c.on('end', () => {
+var net = require('net');
+
+var server = net.createServer(function(socket) {
+	socket.on('listening',() => {
+		console.log('listening for connections');
+	    });
+	console.log("client connected"); //message on new connection
+	socket.write('Technorip Echo server\r\n'); //imediate message to client
+
+	socket.pipe(socket);	
+
+	//message on disconnecting client
+	socket.on('end', () => {
 		console.log('client disconnected');
 	    });
-	c.write('hello\r\n');
-	c.pipe(c);
     });
-server.on('error', (err) => {
-	throw err;
-    });
-server.listen(8124, () => {
-	console.log('server bound');
-    });
+
+server.listen(8010, '0.0');
