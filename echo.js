@@ -5,7 +5,7 @@ var server = net.createServer(function(socket) {
 		console.log('listening for connections');
 	    });
 	console.log("client connected"); //message on new connection
-	consile.log(socket.address());
+	console.log(socket.address());
 	socket.write('Technorip Echo server\r\n'); //imediate message to client
 
 	socket.pipe(socket);	
