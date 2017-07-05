@@ -88,11 +88,18 @@
 	"buffers":
 	[
 		{
-			"file": "echo.js",
+			"file": "socket.js",
 			"settings":
 			{
-				"buffer_size": 168,
-				"encoding": "UTF-8",
+				"buffer_size": 1283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 295,
 				"line_ending": "Unix"
 			}
 		}
@@ -139,6 +146,7 @@
 	],
 	"file_history":
 	[
+		"/Users/tomvictor/GitHub/socket-server/echo.js",
 		"/Users/tomvictor/Bitbucket/yescollages-backend/application/config/config.php",
 		"/Users/tomvictor/Bitbucket/yescollages-backend/readme.rst",
 		"/Users/tomvictor/Bitbucket/yescollages-backend/index.php",
@@ -265,8 +273,7 @@
 		"/Users/tomvictor/source/newnodetime/time.js",
 		"/Users/tomvictor/source/pydb.py",
 		"/Users/tomvictor/GitHub/My-C-Codes/hello.c",
-		"/Users/tomvictor/source/tom.c",
-		"/Users/tomvictor/Downloads/upload_t7HmxRN.php"
+		"/Users/tomvictor/source/tom.c"
 	],
 	"find":
 	{
@@ -334,24 +341,53 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "echo.js",
+					"file": "socket.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 168,
+						"buffer_size": 1283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":

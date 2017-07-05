@@ -12,7 +12,8 @@ var server = net.createServer(function(socket) {
 	socket.on('data',(data) => {
 		console.log("Data recieved chunck:");
 		console.log(data);
-		console.log("Data length:");
+		console.log("Data length:"
+);
 		console.log(data.length);
 		console.log("Data in ascii");
 		console.log(data.toString('ascii'));

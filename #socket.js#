@@ -1,4 +1,13 @@
-var net = require('net');
+\var net = require('net');
+var admin = require("firebase-admin");
+
+
+var serviceAccount = require("serviceAccountKey.json");
+
+admin.initializeApp({
+	credential: admin.credential.cert(serviceAccount),
+	    databaseURL: "https://<DATABASE_NAME>.firebaseio.com"
+	    });
 
 
 
