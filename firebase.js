@@ -1,5 +1,9 @@
 var firebase = require("firebase");
+
+
 // Import Admin SDK
+
+
 var admin = require("firebase-admin");
 
 var net = require('net');
@@ -29,6 +33,7 @@ var server = net.createServer(function(socket) {
 	console.log(socket.address()); //This will display the client address
 	socket.write('Technorip Echo server\r\n'); //imediate message to client
 	//tring to read the data
+
 	socket.on('data',(data) => {
 		console.log("Data Recieved:");
 		console.log(data);
@@ -37,7 +42,9 @@ var server = net.createServer(function(socket) {
 		console.log("Data in ascii");
 		var dataString = data.toString('ascii');
 		console.log(dataString);
+
 		//returning acknowledge
+
 		var flag; 
 		flag = socket.write(dataString) ;
 		console.log(flag);

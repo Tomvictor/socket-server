@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"config"
+			],
+			[
 				"ho",
 				"home_page"
 			],
@@ -26,10 +30,6 @@
 			[
 				"obj",
 				"object"
-			],
-			[
-				"co",
-				"context"
 			],
 			[
 				"Tu",
@@ -88,18 +88,28 @@
 	"buffers":
 	[
 		{
-			"file": "socket.js",
+			"file": "firebase.js",
 			"settings":
 			{
-				"buffer_size": 1283,
+				"buffer_size": 2097,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.js",
+			"file": "socket.js",
 			"settings":
 			{
-				"buffer_size": 295,
+				"buffer_size": 1043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "serviceAccountKey.json",
+			"settings":
+			{
+				"buffer_size": 329,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -146,6 +156,9 @@
 	],
 	"file_history":
 	[
+		"/Users/tomvictor/GitHub/socket-server/package.json",
+		"/Users/tomvictor/GitHub/socket-server/serviceAccountKey.json",
+		"/Users/tomvictor/GitHub/socket-server/socket.js",
 		"/Users/tomvictor/GitHub/socket-server/echo.js",
 		"/Users/tomvictor/Bitbucket/yescollages-backend/application/config/config.php",
 		"/Users/tomvictor/Bitbucket/yescollages-backend/readme.rst",
@@ -270,14 +283,11 @@
 		"/Users/tomvictor/tom.cpp",
 		"/Users/tomvictor/GitHub/My-C-Codes/siz.c",
 		"/Users/tomvictor/GitHub/My-C-Codes/fibno.c",
-		"/Users/tomvictor/source/newnodetime/time.js",
-		"/Users/tomvictor/source/pydb.py",
-		"/Users/tomvictor/GitHub/My-C-Codes/hello.c",
-		"/Users/tomvictor/source/tom.c"
+		"/Users/tomvictor/source/newnodetime/time.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -292,6 +302,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"firebase",
 			"thump",
 			"slug",
 			"title",
@@ -341,45 +352,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "socket.js",
+					"file": "firebase.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								808,
-								808
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 295,
+						"buffer_size": 2097,
 						"regions":
 						{
 						},
@@ -387,7 +369,7 @@
 						[
 							[
 								0,
-								0
+								2097
 							]
 						],
 						"settings":
@@ -399,6 +381,63 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "socket.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "serviceAccountKey.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
